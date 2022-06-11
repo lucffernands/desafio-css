@@ -1,124 +1,147 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 
 :root {
-    --color-red--: #F03C42;
-    --color-blue--: #222374;
-    --color-white--: #FFFFFF;
-    --color-gray--: #CCCCCC;  
-    --color-black--: #000000;
+  --color-red--: #f03c42;
+  --color-blue--: #222374;
+  --color-white--: #ffffff;
+  --color-gray--: #cccccc;
+  --color-black--: #000000;
 }
 
 * {
-    font-family: 'Open Sans', sans-serif;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a,
+a:hover {
+  color: unset;
+  text-decoration: none;
 }
 
 header {
-    background-color: var(--color-red--);
-    height: 100px;
-    display: flex;
-    align-items: center;
+  background-color: var(--color-red--);
+  height: 100px;
+  display: flex;
+  align-items: center;
 }
 
 .nav-content {
-    display: flex;
-    justify-content: space-between;
- 
+  display: flex;
+  justify-content: space-between;
 }
 
 .instagram-content {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 nav h1 {
-    font-size: 18px;
-    color: var(--color-white--);
+  font-size: 18px;
+  color: var(--color-white--);
 }
 
 nav a {
-    text-decoration: none;
-    color: var(--color-white--);
-    padding-left: 10px;
+  text-decoration: none;
+  color: var(--color-white--);
+  padding-left: 10px;
 }
 
 .container {
-    width: 100%;
-    max-width: 960px;
-    margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 #space {
-    padding: 20px 0 20px 0;
-    background-color: var(--color-blue--); 
+  padding: 20px 0 20px 0;
+  background-color: var(--color-blue--);
 }
 
 #space h2 {
-    color: var(--color-white--);
-    padding-bottom: 40px;
+  color: var(--color-white--);
+  padding-bottom: 40px;
 }
 
 .space-card {
-    background-color: var(--color-gray--);
-    border-radius: 8px;
-    padding: 20px;
-    display: flex;
-    flex-direction: column; 
-    justify-content: space-between;
-    margin-bottom: 20px;
+  background-color: var(--color-gray--);
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 .space-card p {
-   padding-top: 20px;
+  padding-top: 20px;
 }
 
 #modalities {
-    padding: 20px 0 20px 0;
-    background-color: var(--color-white--); 
+  padding: 20px 0 20px 0;
+  background-color: var(--color-white--);
 }
 
 #modalities h2 {
-    color: var(--color-red--);
-    padding-bottom: 40px;
+  color: var(--color-red--);
+  padding-bottom: 40px;
 }
 
 .modalities-card {
-    background-color: var(--color-blue--);
-    border-radius: 8px;
-    padding: 20px;
-    display: flex;
-    flex-direction: column; 
-    justify-content: space-between;
-    margin-bottom: 20px;
+  background-color: var(--color-blue--);
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 .modalities-card p {
-    padding-top: 20px;
-    color: var(--color-gray--);
- }
+  padding-top: 20px;
+  color: var(--color-gray--);
+}
 
- .modalities-card h3 {
-    color: var(--color-white--);
- }
+.modalities-card h3 {
+  color: var(--color-white--);
+}
 
- footer {
-    background-color: var(--color-black--);
-    height: 262px;
-    padding: 60px 0 60px 0;
-    color: var(--color-white--);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    text-align: center;
- }
+footer {
+  height: 262px;
+  padding: 60px 0;
+  background-color: var(--color-black--);
+  color: var(--color-white--);
+  display: flex;
+  align-items: center;
+}
 
- .footer-address {
-    font-style: italic;
- }
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
- footer a {
-    color: var(--color-white--);
-    text-decoration: none;
- }
+.footer-instagram {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.footer-instagram a {
+  padding-left: 10px;
+}
+
+.footer-twitter a {
+  padding-left: 10px;
+}
+
+.footer-twitter {
+  display: flex;
+  align-items: center;
+}
+
+.footer-text {
+  padding-top: 30px;
+}
